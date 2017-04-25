@@ -1,0 +1,22 @@
+.loader {
+    text-align: center;
+}
+.main-details-container {
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (max-width: 900px) {
+    .main-details-container {
+        flex-direction: column;
+    }
+    .main-details-container > * {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    .main-details-container .gauge-chart-container > div {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+}

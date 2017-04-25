@@ -1,0 +1,23 @@
+{
+  "name": "second_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^1.1.1",
+    "flowthings-browser": "^1.0.2",
+    "material-ui": "^0.17.4",
+    "react": "^15.5.4",
+    "react-chartjs": "^0.8.0",
+    "react-dom": "^15.5.4",
+    "react-google-charts": "^1.5.4-alpha.1"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "PORT=3002 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

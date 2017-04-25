@@ -1,0 +1,10 @@
+.details-list {
+    list-style: none;
+    font-size: 1.2em;
+    width: 15%;
+    min-width: 300px;
+    padding: 0;
+}
+.details-point-title {
+    font-weight: bold;
+}
